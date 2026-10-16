@@ -1,0 +1,27 @@
+# Node modules
+node_modules/
+
+# Environment variables - NEVER push this
+.env
+.env.local
+.env.production
+
+# Uploaded files (user documents - privacy)
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# Database files
+*.sqlite
+*.db
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# Build output
+dist/
+build/

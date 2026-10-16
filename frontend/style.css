@@ -1,0 +1,74 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial;
+    background:linear-gradient(135deg,#1e3c72,#2a5298);
+    min-height:100vh;
+    color:white;
+}
+
+.container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+}
+
+.card{
+    background:white;
+    color:black;
+    padding:40px;
+    border-radius:15px;
+    width:400px;
+}
+
+.card h1{
+    text-align:center;
+}
+
+.subtitle{
+    text-align:center;
+    margin:15px 0;
+}
+
+input,
+select,
+button{
+    width:100%;
+    padding:12px;
+    margin-top:10px;
+}
+
+button{
+    border:none;
+    background:#1e3c72;
+    color:white;
+    cursor:pointer;
+}
+
+.dashboard-container{
+    padding:40px;
+}
+
+table{
+    width:100%;
+    background:white;
+    color:black;
+    border-collapse:collapse;
+}
+
+th{
+    background:#1e3c72;
+    color:white;
+    padding:15px;
+}
+
+td{
+    padding:15px;
+    border-bottom:1px solid #ccc;
+    text-align:center;
+}
